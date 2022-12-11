@@ -18,29 +18,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.camera.view.PreviewView
-        android:id="@+id/idPreviewView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:layout_weight="90"
-        android:visibility="gone"
-        app:layout_constraintTop_toBottomOf="@+id/textView10"
-        app:scaleType="fitCenter"
-        tools:layout_editor_absoluteX="0dp">
-
-    </androidx.camera.view.PreviewView>
-
     <LinearLayout
         android:id="@+id/linearLayout5"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_height="0dp"
         android:orientation="horizontal"
         android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/idPreviewView"
-        app:layout_constraintTop_toBottomOf="@+id/idPreviewView">
+        app:layout_constraintEnd_toEndOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10">
 
         <ImageButton
             android:id="@+id/imageCapture"
@@ -56,6 +42,20 @@
             android:src="@drawable/ic_clear" />
     </LinearLayout>
 
+    <androidx.camera.view.PreviewView
+        android:id="@+id/idPreviewView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="87dp"
+        android:layout_weight="90"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout5"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout5"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout5"
+        app:scaleType="fitCenter">
+
+    </androidx.camera.view.PreviewView>
+
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
@@ -67,7 +67,7 @@
         app:layout_constraintEnd_toEndOf="@+id/textView10"
         app:layout_constraintHorizontal_bias="0.838"
         app:layout_constraintStart_toStartOf="@+id/textView10"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+        app:layout_constraintTop_toBottomOf="@+id/idPreviewView">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
