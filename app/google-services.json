@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "347627564365",
+    "firebase_url": "https://viverocom-9a343-default-rtdb.firebaseio.com",
+    "project_id": "viverocom-9a343",
+    "storage_bucket": "viverocom-9a343.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347627564365:android:a79c782c909d9bd63bdb04",
+        "android_client_info": {
+          "package_name": "com.example.viverocom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347627564365-bv1fsc5ak5a8269mji7mghu96hmef9qd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4CRamnEZPU9ZBkEeFzhA9zI4_oTJhuzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347627564365-bv1fsc5ak5a8269mji7mghu96hmef9qd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

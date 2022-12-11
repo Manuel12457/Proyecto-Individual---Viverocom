@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1855" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/activity_cambio_contrasenia.xml" value="0.2203125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/activity_codigo_cambio_contrasenia.xml" value="0.2203125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/activity_codigo_registrar_usuario.xml" value="0.2203125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/activity_inicias_sesion.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/activity_mapa_prueba.xml" value="0.225" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/activity_navigation_drawer.xml" value="0.23125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/activity_navigation_drawer_admin.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/activity_registrar_usuario.xml" value="0.21979166666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/app_bar_navigation_drawer.xml" value="0.23125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/app_bar_navigation_drawer_admin.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/content_aaaaaaa.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/content_navigation_drawer.xml" value="0.23125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/content_navigation_drawer_admin.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/custom_dialog_zoom.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/fragment_nav_camara.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/fragment_nav_carrito.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/fragment_nav_consultas.xml" value="0.21979166666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/fragment_nav_consultas_admin.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/fragment_nav_detalleconsulta.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/fragment_nav_detalleconsulta_admin.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/fragment_nav_historial.xml" value="0.21979166666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/fragment_nav_historial_admin.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/fragment_nav_historialdetalle.xml" value="0.23125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/fragment_nav_historialdetalle_admin.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/fragment_nav_home.xml" value="0.21979166666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/fragment_nav_nuevaconsulta.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/fragment_nav_nuevaconsulta_admin.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/fragment_nav_productos.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/fragment_nav_productos_admin.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/fragment_nav_productosdetalle.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/fragment_nav_productosdetalle_admin.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/fragment_nav_productosedicion.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/fragment_nav_productosedicion_admin.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/item_consulta.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/item_detalleconsulta.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/item_detallehistorial.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/item_detallesproducto.xml" value="0.22864583333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/item_fotoproducto.xml" value="0.6" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/item_historialcompras.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/item_home.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/item_producto.xml" value="0.536" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/item_productocarrito.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/item_productodetalle.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/item_productohistorial.xml" value="0.4" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/nav_header_aaaaaaa.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/nav_header_navigation_drawer.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/nav_header_navigation_drawer_admin.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/layout/slide_item_container.xml" value="0.221875" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/menu/a_a_a_a_a_a.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/menu/activity_main_drawer.xml" value="0.21979166666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/menu/activity_navigation_drawer_admin_drawer.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/menu/activity_nuevisimo_drawer.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/menu/bottom_nav_menu.xml" value="0.21979166666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/menu/contextualactionbar_productos.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/menu/menu_detalleconsulta.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/menu/menu_historialdetalle.xml" value="0.23125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/menu/menu_nuevaconsulta.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/menu/menu_productosdetalle.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/menu/menu_productosedicion.xml" value="0.221875" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/menu/navigation_drawer.xml" value="0.21979166666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/menu/navigation_drawer_admin.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/menu/nuevisimo.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/ViveroCom/app/src/main/res/xml/file_paths.xml" value="0.23125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

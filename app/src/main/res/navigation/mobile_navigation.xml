@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_productos"
+        android:name="com.example.viverocom.Fragments.nav_productos"
+        android:label="fragment_nav_productos"
+        tools:layout="@layout/fragment_nav_productos" >
+        <action
+            android:id="@+id/action_nav_productos_to_nav_productosdetalle"
+            app:destination="@id/nav_productosdetalle" />
+        <action
+            android:id="@+id/action_nav_productos_to_nav_productosedicion"
+            app:destination="@id/nav_productosedicion" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_consultas"
+        android:name="com.example.viverocom.Fragments.nav_consultas"
+        android:label="fragment_nav_consultas"
+        tools:layout="@layout/fragment_nav_consultas" >
+        <action
+            android:id="@+id/action_nav_consultas_to_nav_detalleconsulta"
+            app:destination="@id/nav_detalleconsulta" />
+        <action
+            android:id="@+id/action_nav_consultas_to_nav_nuevaconsulta"
+            app:destination="@id/nav_nuevaconsulta" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.viverocom.Fragments.nav_home"
+        android:label="fragment_nav_home"
+        tools:layout="@layout/fragment_nav_home" />
+    <fragment
+        android:id="@+id/nav_carrito"
+        android:name="com.example.viverocom.Fragments.nav_carrito"
+        android:label="fragment_nav_carrito"
+        tools:layout="@layout/fragment_nav_carrito" />
+    <fragment
+        android:id="@+id/nav_historial"
+        android:name="com.example.viverocom.Fragments.nav_historial"
+        android:label="fragment_nav_historial"
+        tools:layout="@layout/fragment_nav_historial" >
+        <action
+            android:id="@+id/action_nav_historial_to_nav_historialdetalle"
+            app:destination="@id/nav_historialdetalle" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_productosdetalle"
+        android:name="com.example.viverocom.Fragments.nav_productosdetalle"
+        android:label="fragment_nav_productosdetalle"
+        tools:layout="@layout/fragment_nav_productosdetalle" >
+        <action
+            android:id="@+id/action_nav_productosdetalle_to_nav_productos"
+            app:destination="@id/nav_productos" />
+        <action
+            android:id="@+id/action_nav_productosdetalle_to_nav_productosedicion"
+            app:destination="@id/nav_productosedicion" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_productosedicion"
+        android:name="com.example.viverocom.Fragments.nav_productosedicion"
+        android:label="fragment_nav_productosedicion"
+        tools:layout="@layout/fragment_nav_productosedicion" >
+        <action
+            android:id="@+id/action_nav_productosedicion_to_nav_productosdetalle"
+            app:destination="@id/nav_productosdetalle" />
+        <action
+            android:id="@+id/action_nav_productosedicion_to_nav_productos"
+            app:destination="@id/nav_productos" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_nuevaconsulta"
+        android:name="com.example.viverocom.Fragments.nav_nuevaconsulta"
+        android:label="fragment_nav_nuevaconsulta"
+        tools:layout="@layout/fragment_nav_nuevaconsulta" >
+        <action
+            android:id="@+id/action_nav_nuevaconsulta_to_nav_detalleconsulta"
+            app:destination="@id/nav_detalleconsulta" />
+        <action
+            android:id="@+id/action_nav_nuevaconsulta_to_nav_consultas"
+            app:destination="@id/nav_consultas" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_detalleconsulta"
+        android:name="com.example.viverocom.Fragments.nav_detalleconsulta"
+        android:label="fragment_nav_detalleconsulta"
+        tools:layout="@layout/fragment_nav_detalleconsulta" >
+        <action
+            android:id="@+id/action_nav_detalleconsulta_to_nav_nuevaconsulta"
+            app:destination="@id/nav_nuevaconsulta" />
+        <action
+            android:id="@+id/action_nav_detalleconsulta_to_nav_consultas"
+            app:destination="@id/nav_consultas" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_historialdetalle"
+        android:name="com.example.viverocom.Fragments.nav_historialdetalle"
+        android:label="fragment_nav_historialdetalle"
+        tools:layout="@layout/fragment_nav_historialdetalle" >
+        <action
+            android:id="@+id/action_nav_historialdetalle_to_nav_historial"
+            app:destination="@id/nav_historial" />
+    </fragment>
+
+</navigation>

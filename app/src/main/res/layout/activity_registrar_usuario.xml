@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarUsuario">
+
+    <Button
+        android:id="@+id/btn_registrarseForm"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:onClick="validarRegistro"
+        android:text="Registrarse"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/inputVerifyPassword_registro"
+        app:layout_constraintStart_toStartOf="@+id/inputVerifyPassword_registro"
+        app:layout_constraintTop_toBottomOf="@+id/inputVerifyPassword_registro" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputVerifyPassword_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Verificar Contraseña"
+        app:layout_constraintEnd_toEndOf="@+id/inputPassword_registro"
+        app:layout_constraintStart_toStartOf="@+id/inputPassword_registro"
+        app:layout_constraintTop_toBottomOf="@+id/inputPassword_registro"
+        app:endIconMode="password_toggle">>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="302dp"
+            android:layout_height="50dp"
+            android:inputType="textPassword"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputPassword_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        app:layout_constraintEnd_toEndOf="@+id/inputDireccion_registro"
+        app:layout_constraintStart_toStartOf="@+id/inputDireccion_registro"
+        app:layout_constraintTop_toBottomOf="@+id/inputDireccion_registro"
+        app:endIconMode="password_toggle">>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="302dp"
+            android:layout_height="50dp"
+            android:inputType="textPassword"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputCorreo_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Correo"
+        app:layout_constraintEnd_toEndOf="@+id/inputApellido_registro"
+        app:layout_constraintStart_toStartOf="@+id/inputApellido_registro"
+        app:layout_constraintTop_toBottomOf="@+id/inputApellido_registro">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="302dp"
+            android:layout_height="50dp"
+            android:inputType="textEmailAddress" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Registro de usuario"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputNombre_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="Nombre"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="302dp"
+            android:layout_height="50dp"
+            android:inputType="textPersonName" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputApellido_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Apellido"
+        app:layout_constraintEnd_toEndOf="@+id/inputNombre_registro"
+        app:layout_constraintStart_toStartOf="@+id/inputNombre_registro"
+        app:layout_constraintTop_toBottomOf="@+id/inputNombre_registro">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="302dp"
+            android:layout_height="50dp"
+            android:inputType="textPersonName" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputDireccion_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Dirección"
+        app:layout_constraintEnd_toEndOf="@+id/inputCorreo_registro"
+        app:layout_constraintStart_toStartOf="@+id/inputCorreo_registro"
+        app:layout_constraintTop_toBottomOf="@+id/inputCorreo_registro">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="302dp"
+            android:layout_height="50dp"
+            android:inputType="textPostalAddress" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

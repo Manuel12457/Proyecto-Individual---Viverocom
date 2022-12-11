@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_productos_admin">
+    <fragment
+        android:id="@+id/nav_productos_admin"
+        android:name="com.example.viverocom.FragmentsAdmin.nav_productos_admin"
+        android:label="fragment_nav_productos_admin"
+        tools:layout="@layout/fragment_nav_productos_admin" >
+        <action
+            android:id="@+id/action_nav_productos_admin_to_nav_productosdetalle_admin"
+            app:destination="@id/nav_productosdetalle_admin" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_productosdetalle_admin"
+        android:name="com.example.viverocom.FragmentsAdmin.nav_productosdetalle_admin"
+        android:label="fragment_nav_productosdetalle_admin"
+        tools:layout="@layout/fragment_nav_productosdetalle_admin" >
+        <action
+            android:id="@+id/action_nav_productosdetalle_admin_to_nav_productos_admin"
+            app:destination="@id/nav_productos_admin" />
+        <action
+            android:id="@+id/action_nav_productosdetalle_admin_to_nav_productosedicion_admin"
+            app:destination="@id/nav_productosedicion_admin" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_productosedicion_admin"
+        android:name="com.example.viverocom.FragmentsAdmin.nav_productosedicion_admin"
+        android:label="fragment_nav_productosedicion_admin"
+        tools:layout="@layout/fragment_nav_productosedicion_admin" >
+        <action
+            android:id="@+id/action_nav_productosedicion_admin_to_nav_productosdetalle_admin"
+            app:destination="@id/nav_productosdetalle_admin" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_historial_admin"
+        android:name="com.example.viverocom.FragmentsAdmin.nav_historial_admin"
+        android:label="fragment_nav_historial_admin"
+        tools:layout="@layout/fragment_nav_historial_admin" >
+        <action
+            android:id="@+id/action_nav_historial_admin_to_nav_historialdetalle_admin"
+            app:destination="@id/nav_historialdetalle_admin" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_historialdetalle_admin"
+        android:name="com.example.viverocom.FragmentsAdmin.nav_historialdetalle_admin"
+        android:label="fragment_nav_historialdetalle_admin"
+        tools:layout="@layout/fragment_nav_historialdetalle_admin" >
+        <action
+            android:id="@+id/action_nav_historialdetalle_admin_to_nav_historial_admin"
+            app:destination="@id/nav_historial_admin" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_consultas_admin"
+        android:name="com.example.viverocom.FragmentsAdmin.nav_consultas_admin"
+        android:label="fragment_nav_consultas_admin"
+        tools:layout="@layout/fragment_nav_consultas_admin" >
+        <action
+            android:id="@+id/action_nav_consultas_admin_to_nav_detalleconsulta_admin"
+            app:destination="@id/nav_detalleconsulta_admin" />
+        <action
+            android:id="@+id/action_nav_consultas_admin_to_nav_nuevaconsulta_admin"
+            app:destination="@id/nav_nuevaconsulta_admin" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_detalleconsulta_admin"
+        android:name="com.example.viverocom.FragmentsAdmin.nav_detalleconsulta_admin"
+        android:label="fragment_nav_detalleconsulta_admin"
+        tools:layout="@layout/fragment_nav_detalleconsulta_admin" >
+        <action
+            android:id="@+id/action_nav_detalleconsulta_admin_to_nav_consultas_admin"
+            app:destination="@id/nav_consultas_admin" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_nuevaconsulta_admin"
+        android:name="com.example.viverocom.FragmentsAdmin.nav_nuevaconsulta_admin"
+        android:label="fragment_nav_nuevaconsulta_admin"
+        tools:layout="@layout/fragment_nav_nuevaconsulta_admin" >
+        <action
+            android:id="@+id/action_nav_nuevaconsulta_admin_to_nav_consultas_admin"
+            app:destination="@id/nav_consultas_admin" />
+    </fragment>
+</navigation>

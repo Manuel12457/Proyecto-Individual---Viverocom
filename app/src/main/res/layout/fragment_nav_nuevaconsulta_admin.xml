@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_nav_nuevaconsulta_admin"
+    tools:context=".FragmentsAdmin.nav_nuevaconsulta_admin">
+
+    <TextView
+        android:id="@+id/textViewNuevaConsulta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Consultas"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputAsunto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="Asunto"
+        app:layout_constraintEnd_toEndOf="@+id/textViewNuevaConsulta"
+        app:layout_constraintStart_toStartOf="@+id/textViewNuevaConsulta"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNuevaConsulta">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="302dp"
+            android:layout_height="50dp"
+            android:inputType="textShortMessage|text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputCuerpoMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Cuerpo del mensaje"
+        app:counterEnabled="true"
+        app:counterMaxLength="500"
+        app:layout_constraintEnd_toEndOf="@+id/inputAsunto"
+        app:layout_constraintStart_toStartOf="@+id/inputAsunto"
+        app:layout_constraintTop_toBottomOf="@+id/inputAsunto">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="302dp"
+            android:layout_height="200dp"
+            android:gravity="start|top"
+            android:inputType="textShortMessage|textMultiLine|text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:id="@+id/materialDivider3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputCuerpoMensaje" />
+
+    <TextView
+        android:id="@+id/fotosAdjuntas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Fotos adjuntas"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/materialDivider3"
+        app:layout_constraintStart_toStartOf="@+id/materialDivider3"
+        app:layout_constraintTop_toBottomOf="@+id/materialDivider3" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewFotos"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/fotosAdjuntas"
+        app:layout_constraintStart_toStartOf="@+id/fotosAdjuntas"
+        app:layout_constraintTop_toBottomOf="@+id/fotosAdjuntas" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
